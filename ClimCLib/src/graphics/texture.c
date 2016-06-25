@@ -1,5 +1,4 @@
 #include "../../include/graphics/texture.h"
-#include "../../dep/Windows/SDL2_image-2.0.1/x86_64-w64-mingw32/include/SDL2/SDL_image.h"
 #include <SDL2/SDL_image.h>
 
 

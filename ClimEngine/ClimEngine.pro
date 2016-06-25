@@ -20,3 +20,8 @@ unix {
     target.path = /usr/lib
     INSTALLS += target
 }
+
+unix|win32: LIBS += -L$$OUT_PWD/../ClimCLib/ -lClimCLib
+
+INCLUDEPATH += $$PWD/../ClimCLib/include
+DEPENDPATH += $$PWD/../ClimCLib/include

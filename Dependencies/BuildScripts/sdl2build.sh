@@ -7,37 +7,42 @@ cd ../Source
 
 	hg clone http://hg.libsdl.org/SDL
 
-	
+
 
 
 	echo "Moving into SDL Dependency Directory"
-	cd SDL 
-	
+	cd SDL
+
 
 	echo "Creating build directory"
 	mkdir build
 	cd build
-	
-	
-	
-	
+
+
+
+
 if [ "$(uname)" == "Darwin" ]; then
 echo "Configuring SDL2 for OSX"
-	
+
 elif [ "$(uname -s)" == "Linux" ]; then
     # Build to Linux User
-	
+	sh ../autogen.sh
+	../configure
+	make
+	sudo make install
+
 	echo "Making SDL2 Lib Directory"
-	cd ../../../
-	cd Platforms/Linux
-	mkdir SDL2
+	echo "******************************"
+	echo "IMPORTANT NOTICE:"
+
 	echo "Moving to SDL2 Lib Directory"
-	cp ../../Source/SDL/build/ SDL2
-	cd SDL2
+	cp -rf ../../Source/SDL/build/* SDL2/
+	rm -rf ../../Source/SDL/build
+	echo "SDL2 has Installed correcty on linux"> BuildLog.txt 2>&1
 
 elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
     # Do something under Windows NT platform
-	
+
 	echo "Configuring SDL2 for Windows"
 	echo "Cmake "
 	cmake ../ -G "Visual Studio 12"
@@ -51,6 +56,3 @@ elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
 	cp -rf ../../Source/SDL/build/* SDL2/
 	rm -rf ../../Source/SDL/build
 fi
-
-
-

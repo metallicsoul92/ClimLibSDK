@@ -3,7 +3,7 @@
 
 #include "shapes.h"
 #include "texture.h"
-#include  "../../dep/SDL2-2.0.4/include/SDL.h"
+#include  "SDL.h"
 #include <stdio.h>
 SDL_Rect *createRectFromTexture(Clim_texture *texture);
 
