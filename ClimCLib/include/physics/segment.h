@@ -4,6 +4,13 @@
 #include "../../include/adt/vector2.h"
 #include "../../include/adt/vector3.h"
 
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
+
 struct _segment2i{
     Clim_vector2i pointA;
     Clim_vector2i pointB;
@@ -36,5 +43,9 @@ typedef struct _segment2f Clim_segment2f;
 typedef struct _segment3i Clim_segment3i;
 typedef struct _segment3u Clim_segment3u;
 typedef struct _segment3f Clim_segment3f;
+
+#ifdef __cplusplus
+ }
+#endif
 
 #endif // Segment.h

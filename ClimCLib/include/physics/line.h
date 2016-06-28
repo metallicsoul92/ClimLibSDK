@@ -6,6 +6,13 @@
 
 #include "../../include/utility/common.h"
 
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
+
 struct _linei2D{
   Clim_vector2i base; // position where the line begins
   Clim_vector2i direction; //direction line is pointing
@@ -56,5 +63,10 @@ cbool parallel2f(const Clim_linef2D *a,const Clim_linef2D *b);
 cbool parallel3i(const Clim_linei3D *a,const Clim_linei3D *b);
 cbool parallel3u(const Clim_lineu3D *a,const Clim_lineu3D *b);
 cbool parallel3f(const Clim_linef3D *a,const Clim_linef3D *b);
+
+#ifdef __cplusplus
+ }
+#endif
+
 
 #endif //line.h

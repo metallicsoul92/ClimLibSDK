@@ -5,6 +5,11 @@
 #include "../../include/adt/vector3.h"
 #include "../../include/physics/physicsIntersectData.h"
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
 struct _circlei2d{
   float radius;
   Clim_vector2i pos;
@@ -58,4 +63,8 @@ Clim_physicsIntersectData intersectC3i(Clim_Circlei3D a, Clim_Circlei3D b);
 Clim_physicsIntersectData intersectC3u(Clim_Circleu3D a, Clim_Circleu3D b);
 Clim_physicsIntersectData intersectC3f(Clim_Circlef3D a, Clim_Circlef3D b);
 
+
+#ifdef __cplusplus
+ }
+#endif
 #endif //CIRCLE_H_

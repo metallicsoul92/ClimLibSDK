@@ -4,6 +4,12 @@
 #include "../../include/adt/vector2.h"
 #include "../../include/adt/vector3.h"
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
+
 struct _orectangle2i{
   Clim_vector2i center;
   Clim_vector2i halfExtended;
@@ -42,5 +48,8 @@ typedef _orectangle3i Clim_orectangle3i;
 typedef _orectangle3u Clim_orectangle3u;
 typedef _orectangle3f Clim_orectangle3f;
 
+#ifdef __cplusplus
+ }
+#endif
 
 #endif //orectangle.h

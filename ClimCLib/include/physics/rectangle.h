@@ -6,6 +6,12 @@
 
 #include "../../include/utility/common.h"
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
+
 struct _rectangle2i{
   Clim_vector2i origin;
   Clim_vector2i size;
@@ -45,7 +51,9 @@ Clim_vector3i recCorner3i(const Clim_rectangle3i rect,const int nr);
 Clim_vector3u recCorner3u(const Clim_rectangle3u rect,const int nr);
 Clim_vector3f recCorner3f(const  Clim_rectangle3f rect,const int nr);
 
-
+#ifdef __cplusplus
+ }
+#endif
 
 
 #endif //rectangle.h

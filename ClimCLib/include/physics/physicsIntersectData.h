@@ -2,6 +2,9 @@
 #define PHYSICSINTERSECTDATA_H_
 #include "../../include/utility/common.h"
 
+#ifdef __cplusplus
+ extern "C" {
+#endif
 
 struct _physicsIntersectData{
   const cbool doesInteract;
@@ -9,5 +12,10 @@ struct _physicsIntersectData{
 };
 
 typedef struct _physicsIntersectData Clim_physicsIntersectData;
+
+#ifdef __cplusplus
+ }
+#endif
+
 
 #endif //Physics Intersect data

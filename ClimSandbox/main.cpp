@@ -1,8 +1,8 @@
 #include <QCoreApplication>
-#include <include/ClimCLib.h>
 
-
-extern void initializeSDLWithEverything();
+extern "C"{
+  #include <include/ClimCLib.h>
+}
 
 
 int main(int argc, char *argv[])
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
      resolution = Clim_Static_DisplayResolutions[1];
 
 
-  createWindowWithVec2(window,"Clim Fourth test",resolution);
+  createWindowWithVec2(window,"ClimSandbox Demo",resolution);
       createRenderer(render1,window,CLIM_2D);
   return a.exec();
 }

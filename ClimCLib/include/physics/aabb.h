@@ -3,6 +3,13 @@
 
 #include "../../include/adt/vector2.h"
 #include "../../include/adt/vector3.h"
+
+#ifdef __cplusplus
+ extern "C" {
+#endif
+
+
+
 struct _AABB2f{
   Clim_vector2f min;
   Clim_vector2f max;
@@ -47,6 +54,10 @@ int checkBounds2f(Clim_AABB2f a,Clim_AABB2f b);
 int checkBounds3i(Clim_AABB3i a,Clim_AABB3i b);
 int checkBounds3u(Clim_AABB3u a,Clim_AABB3u b);
 int checkBounds3f(Clim_AABB3f a,Clim_AABB3f b);
+
+#ifdef __cplusplus
+ }
+#endif
 
 
 #endif //AABB2_H_
