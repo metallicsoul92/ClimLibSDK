@@ -1,6 +1,9 @@
 #ifndef VECTOR2_H_
 #define VECTOR2_H_
-
+//If building on windows, switch inline to __inline
+#ifdef _MSC_VER
+#define inline __inline
+#endif
 //Structure Definitions//
 struct _vector2i{
 	int x;

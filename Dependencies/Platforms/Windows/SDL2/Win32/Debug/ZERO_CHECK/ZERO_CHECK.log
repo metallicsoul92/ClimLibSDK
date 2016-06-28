@@ -1,0 +1,10 @@
+﻿Build started 6/25/2016 4:13:26 PM.
+     1>Project "c:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\ZERO_CHECK.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "c:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\ZERO_CHECK.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.86

@@ -3,4 +3,5 @@ TEMPLATE = subdirs
 SUBDIRS += \
     ClimCLib \
     ClimEngine \
-    ClimEditor
+    ClimEditor \
+    ClimSandbox

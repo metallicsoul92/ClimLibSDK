@@ -8,15 +8,30 @@ QT       -= core gui
 
 TARGET = ClimCLib
 TEMPLATE = lib
+CONFIG +=staticlib
+
+
+unix{
+QMAKE_CFLAGS += -g
+QMAKE_CFLAGS += -Wall
+QMAKE_CFLAGS += -pedantic-errors
+QMAKE_CFLAGS += -std=c11
+}
+win32{
+
+QMAKE_CFLAGS += /Wall
+
+}
 
 DEFINES += CLIMCLIB_LIBRARY
 
 INCLUDEPATH += include/ \
                ../Dependencies/Source/SDL/include \
+               ../Dependencies/Source/SDL_image
 
 DEPENDPATH += $include/ \
-               ../Dependencies/Source/SDL/include
-
+               $$PWD/../Dependencies/Source/SDL/include \
+               $$PWD/../Dependencies/Source/SDL_image
 
 SOURCES += src/adt/darray.c \
            src/adt/dlist.c \
@@ -64,10 +79,13 @@ HEADERS += include/adt/darray.h \
            include/graphics/shapes.h \
            include/graphics/texture.h \
            include/graphics/window.h \
+           include/ClimCLib.h
 
 win32 {
      HEADERS += include/utility/vfs_windows.h
-     SOURCES += src/utility/vfs_windows.c
+     #SOURCES += src/utility/vfs_windows.c
+    LIBS += -L$$PWD/../Dependencies/Platforms/Windows/SDL2/Debug/ -lSDL2main -lSDL2 \
+            -L$$PWD/../Dependencies/Platforms/Windows/SDL2_image/ -lSDL2_image
 }
 
 unix {
@@ -77,3 +95,9 @@ unix {
     target.path = /usr/lib
     INSTALLS += target
 }
+
+
+
+
+
+

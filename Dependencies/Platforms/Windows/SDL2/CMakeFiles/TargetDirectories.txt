@@ -1,0 +1,6 @@
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/uninstall.dir
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/SDL2-static.dir
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/SDL2.dir
+C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/SDL2main.dir

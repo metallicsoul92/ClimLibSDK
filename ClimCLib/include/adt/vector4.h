@@ -1,6 +1,14 @@
 #ifndef VECTOR4_H_
 #define VECTOR4_H_
 
+//If building on windows, switch inline to __inline
+#ifdef _MSC_VER
+#define inline __inline
+#endif
+#ifdef __cplusplus
+    extern "C" {
+#endif
+
 //Structure Definitions//
 struct _vector4i{
 	int x;
@@ -103,5 +111,7 @@ inline float dotProduct4u(const Clim_vector4u *a,const Clim_vector4u *b){
 inline float dotProduct4f(const Clim_vector4f *a,const Clim_vector4f *b){
  return a->x * b->x + a->y * b->y + a->z * b->z + a->w * b->w;
 }
-
+#ifdef __cplusplus
+    }
+#endif
 #endif //Vector4

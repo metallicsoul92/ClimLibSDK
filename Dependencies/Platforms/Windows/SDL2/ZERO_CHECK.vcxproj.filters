@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\f448f354137d52d7fc64f11abc11bd33\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{68A49DD2-5521-4FB4-9EC7-7AAFB8355EF0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

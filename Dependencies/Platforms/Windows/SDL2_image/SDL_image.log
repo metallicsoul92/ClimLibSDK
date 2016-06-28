@@ -1,0 +1,43 @@
+﻿Build started 6/27/2016 5:18:31 PM.
+     1>Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\SDL_image.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Iexternal\include /I..\..\SDL\include /Z7 /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _WINDOWS /D LOAD_BMP /D LOAD_GIF /D LOAD_JPG /D "LOAD_JPG_DYNAMIC=\"libjpeg-9.dll\"" /D LOAD_LBM /D LOAD_PCX /D LOAD_PNG /D "LOAD_PNG_DYNAMIC=\"libpng16-16.dll\"" /D LOAD_PNM /D LOAD_TGA /D LOAD_TIF /D "LOAD_TIF_DYNAMIC=\"libtiff-5.dll\"" /D LOAD_WEBP /D "LOAD_WEBP_DYNAMIC=\"libwebp-4.dll\"" /D LOAD_XPM /D LOAD_XV /D PNG_USE_DLL /D ZLIB_DLL /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /MD /GS /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\IMG.c ..\IMG_bmp.c ..\IMG_gif.c ..\IMG_jpg.c ..\IMG_lbm.c ..\IMG_pcx.c ..\IMG_png.c ..\IMG_pnm.c ..\IMG_tga.c ..\IMG_tif.c ..\IMG_webp.c ..\IMG_xcf.c ..\IMG_xpm.c ..\IMG_xv.c ..\IMG_xxx.c
+         IMG.c
+         IMG_bmp.c
+         IMG_gif.c
+         IMG_jpg.c
+         IMG_lbm.c
+         IMG_pcx.c
+         IMG_png.c
+         IMG_pnm.c
+         IMG_tga.c
+         IMG_tif.c
+         IMG_webp.c
+         IMG_xcf.c
+         IMG_xpm.c
+         IMG_xv.c
+         IMG_xxx.c
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\\Win32\Debug\SDL2_image.dll" /NOLOGO /LIBPATH:C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Platforms\Windows\SDL2\Debug SDL2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\\Win32\Debug\SDL2_image.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\\Win32\Debug\SDL2_image.lib" /MACHINE:X86 /SAFESEH /DLL Win32\Debug\Version.res
+         Win32\Debug\IMG.obj
+         Win32\Debug\IMG_bmp.obj
+         Win32\Debug\IMG_gif.obj
+         Win32\Debug\IMG_jpg.obj
+         Win32\Debug\IMG_lbm.obj
+         Win32\Debug\IMG_pcx.obj
+         Win32\Debug\IMG_png.obj
+         Win32\Debug\IMG_pnm.obj
+         Win32\Debug\IMG_tga.obj
+         Win32\Debug\IMG_tif.obj
+         Win32\Debug\IMG_webp.obj
+         Win32\Debug\IMG_xcf.obj
+         Win32\Debug\IMG_xpm.obj
+         Win32\Debug\IMG_xv.obj
+         Win32\Debug\IMG_xxx.obj
+         SDL_image.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\\Win32\Debug\SDL2_image.dll
+     1>Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL_image\VisualC\SDL_image.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.26

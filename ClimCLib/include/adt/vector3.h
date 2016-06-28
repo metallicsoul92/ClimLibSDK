@@ -1,6 +1,10 @@
 #ifndef VECTOR3_H_
 #define VECTOR3_H_
 
+//If building on windows, switch inline to __inline
+#ifdef _MSC_VER
+#define inline __inline
+#endif
 //Structure Definitions//
 struct _vector3i{
 	int x;

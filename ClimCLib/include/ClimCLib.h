@@ -3,6 +3,7 @@
 
 #include "utility/common.h"
 #include "utility/filex.h"
+#include "utility/vfs.h"
 
 #include "adt/darray.h"
 #include "adt/dlist.h"

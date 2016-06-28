@@ -1,0 +1,16 @@
+﻿Build started 6/25/2016 4:13:27 PM.
+     1>Project "c:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\SDL2main.vcxproj" on node 4 (Build target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt
+         CMake does not need to re-run because C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include /IC:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D USING_GENERATED_CONFIG_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /MDd /GS- /arch:SSE /fp:precise /Zc:wchar_t /Zc:forScope /Fo"SDL2main.dir\Debug\\" /Fd"SDL2main.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\main\windows\SDL_windows_main.c
+         SDL_windows_main.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\Debug\SDL2main.lib" /NOLOGO SDL2main.dir\Debug\SDL_windows_main.obj
+         SDL2main.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\Debug\SDL2main.lib
+     1>Done Building Project "c:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\SDL2main.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89

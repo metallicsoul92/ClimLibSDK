@@ -7,6 +7,12 @@
 #define M_PI CLIM_PI
 #endif //Pi definition
 
+//If building on windows, switch inline to __inline
+#ifdef _MSC_VER
+#define inline __inline
+#endif
+
+
 typedef enum {FALSE = 0,TRUE=1} cbool;
 
 

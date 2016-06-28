@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A6FED640-55B2-4FFD-81E4-BC37AEC5CA06}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>SDL2-static</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SDL2-static.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">SDL2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SDL2-static.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">SDL2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SDL2-static.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">SDL2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SDL2-static.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">SDL2</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;USING_GENERATED_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\include;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL -BC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build --check-stamp-file C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceRuns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCCompilerFlag.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckStructHasMember.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDependentOption.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\macros.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\sdlchecks.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include\SDL_config.h.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake_uninstall.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL -BC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build --check-stamp-file C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceRuns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCCompilerFlag.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckStructHasMember.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDependentOption.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\macros.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\sdlchecks.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include\SDL_config.h.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake_uninstall.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL -BC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build --check-stamp-file C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceRuns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCCompilerFlag.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckStructHasMember.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDependentOption.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\macros.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\sdlchecks.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include\SDL_config.h.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake_uninstall.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL -BC:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build --check-stamp-file C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/CMakeLists.txt;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystem.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerId.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCompilerIdDetection.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\ADSP-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Borland-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Cray-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\GNU-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\HP-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IAR-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Intel-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PathScale-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\PGI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SCO-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TI-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\Watcom-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\XL-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CompilerId\VS-10.vcxproj.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeFindBinUtils.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeClDeps.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestRCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeTestCompilerCommon.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompilerABI.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseImplicitLinkInfo.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDetermineCompileFeatures.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompiler.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CMakeCCompiler.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckLibraryExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckSymbolExists.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceRuns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCCompilerFlag.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckTypeSize.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFileCXX.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckStructHasMember.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckCXXSourceCompiles.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeDependentOption.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPkgConfig.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageHandleStandardArgs.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\FindPackageMessage.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeParseArguments.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\macros.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake\sdlchecks.cmake;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.c.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\include\SDL_config.h.cmake;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\cmake_uninstall.cmake.in;C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\SDL.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\SDL_assert.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\SDL_error.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\SDL_hints.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\SDL_log.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\atomic\SDL_atomic.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\atomic\SDL_spinlock.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_audio.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_audiocvt.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_audiodev.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_audiotypecvt.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_mixer.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\SDL_wave.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\cpuinfo\SDL_cpuinfo.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\dynapi\SDL_dynapi.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_clipboardevents.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_dropevents.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_events.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_gesture.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_keyboard.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_mouse.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_quit.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_touch.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\events\SDL_windowevents.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\file\SDL_rwops.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\e_atan2.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\e_log.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\e_pow.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\e_rem_pio2.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\e_sqrt.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\k_cos.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\k_rem_pio2.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\k_sin.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\k_tan.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_atan.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_copysign.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_cos.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_fabs.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_floor.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_scalbn.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_sin.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\libm\s_tan.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\SDL_d3dmath.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\SDL_render.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\SDL_yuv_mmx.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\SDL_yuv_sw.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\direct3d\SDL_render_d3d.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\direct3d11\SDL_render_d3d11.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\opengl\SDL_render_gl.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\opengl\SDL_shaders_gl.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\opengles\SDL_render_gles.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\opengles2\SDL_render_gles2.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\opengles2\SDL_shaders_gles2.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\psp\SDL_render_psp.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_blendfillrect.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_blendline.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_blendpoint.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_drawline.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_drawpoint.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_render_sw.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\render\software\SDL_rotate.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_getenv.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_iconv.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_malloc.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_qsort.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_stdlib.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\stdlib\SDL_string.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\SDL_thread.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\timer\SDL_timer.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_0.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_1.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_A.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_auto.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_copy.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_N.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_blit_slow.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_bmp.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_clipboard.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_egl.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_fillrect.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_pixels.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_rect.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_RLEaccel.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_shape.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_stretch.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_surface.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\SDL_video.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\SDL_gamecontroller.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\SDL_joystick.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\haptic\SDL_haptic.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\power\SDL_power.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\dummy\SDL_dummyaudio.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\disk\SDL_diskaudio.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\dummy\SDL_nullevents.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\dummy\SDL_nullframebuffer.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\dummy\SDL_nullvideo.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\core\windows\SDL_windows.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\core\windows\SDL_xinput.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\winmm\SDL_winmm.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\audio\directsound\SDL_directsound.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsclipboard.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsevents.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsframebuffer.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowskeyboard.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsmessagebox.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsmodes.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsmouse.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsopengl.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsopengles.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsshape.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowsvideo.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\video\windows\SDL_windowswindow.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\windows\SDL_sysmutex.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\windows\SDL_syssem.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\windows\SDL_systhread.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\windows\SDL_systls.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\thread\generic\SDL_syscond.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\power\windows\SDL_syspower.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\filesystem\windows\SDL_sysfilesystem.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\timer\windows\SDL_systimer.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\loadso\windows\SDL_sysloadso.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\windows\SDL_dinputjoystick.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\windows\SDL_mmjoystick.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\windows\SDL_windowsjoystick.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\joystick\windows\SDL_xinputjoystick.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\haptic\windows\SDL_dinputhaptic.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\haptic\windows\SDL_windowshaptic.c"  />
+    <ClCompile Include="C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\src\haptic\windows\SDL_xinputhaptic.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/ZERO_CHECK.vcxproj">
+      <Project>33EAA808-A3AF-48F0-85EE-585298DC8124</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

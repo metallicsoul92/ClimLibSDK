@@ -3,10 +3,10 @@
 
 #include <stdint.h>
 
-#include "../../include/adt/vector2.h"
-#include "../../include/adt/vector3.h"
-#include "../../include/adt/vector4.h"
-#include "../../include/utility/common.h"
+#include "adt/vector2.h"
+#include "adt/vector3.h"
+#include "adt/vector4.h"
+#include "utility/common.h"
 #include "SDL.h"
 #include "SDL_rect.h"
 

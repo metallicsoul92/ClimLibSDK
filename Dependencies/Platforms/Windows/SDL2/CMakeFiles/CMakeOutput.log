@@ -1,0 +1,445 @@
+The system is: Windows - 6.1 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:21 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.68
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/3.2.2/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2435328528.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:25 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec2435328528.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2435328528.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2435328528.dir\Debug\cmTryCom.A3E6A4E9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2435328528.dir\Debug\cmTryCom.A3E6A4E9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2435328528.dir\Debug\\" /Fd"cmTryCompileExec2435328528.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2435328528.dir\Debug\\" /Fd"cmTryCompileExec2435328528.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2435328528.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2435328528.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2435328528.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2435328528.dir\Debug\testCCompiler.obj
+  cmTryCompileExec2435328528.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2435328528.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2435328528.dir\Debug\cmTryCom.A3E6A4E9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2435328528.dir\Debug\cmTryCom.A3E6A4E9.tlog\cmTryCompileExec2435328528.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec2435328528.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.16
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec854228048.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:27 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec854228048.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec854228048.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec854228048.dir\Debug\cmTryCom.304EFAB0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec854228048.dir\Debug\cmTryCom.304EFAB0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec854228048.dir\Debug\\" /Fd"cmTryCompileExec854228048.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec854228048.dir\Debug\\" /Fd"cmTryCompileExec854228048.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "c:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec854228048.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec854228048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec854228048.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec854228048.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec854228048.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec854228048.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec854228048.dir\Debug\cmTryCom.304EFAB0.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec854228048.dir\Debug\cmTryCom.304EFAB0.tlog\cmTryCompileExec854228048.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec854228048.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.96
+
+
+Performing C SOURCE FILE Test HAVE_WIN32_CC succeded with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec811996622.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:29 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec811996622.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec811996622.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec811996622.dir\Debug\cmTryCom.9F456375.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec811996622.dir\Debug\cmTryCom.9F456375.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec811996622.dir\Debug\\" /Fd"cmTryCompileExec811996622.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_WIN32_CC /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec811996622.dir\Debug\\" /Fd"cmTryCompileExec811996622.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec811996622.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec811996622.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec811996622.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec811996622.dir\Debug\src.obj
+  cmTryCompileExec811996622.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec811996622.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec811996622.dir\Debug\cmTryCom.9F456375.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec811996622.dir\Debug\cmTryCom.9F456375.tlog\cmTryCompileExec811996622.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec811996622.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.51
+
+Source file was:
+
+    #include <windows.h>
+    int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_XINPUT_H succeded with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec100865213.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:30 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec100865213.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec100865213.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec100865213.dir\Debug\cmTryCom.B72271DB.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec100865213.dir\Debug\cmTryCom.B72271DB.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec100865213.dir\Debug\\" /Fd"cmTryCompileExec100865213.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_XINPUT_H /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec100865213.dir\Debug\\" /Fd"cmTryCompileExec100865213.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec100865213.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec100865213.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec100865213.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec100865213.dir\Debug\src.obj
+  cmTryCompileExec100865213.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec100865213.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec100865213.dir\Debug\cmTryCom.B72271DB.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec100865213.dir\Debug\cmTryCom.B72271DB.tlog\cmTryCompileExec100865213.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec100865213.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+Source file was:
+
+        #include <windows.h>
+        #include <xinput.h>
+        int main(int argc, char **argv) { }
+Determining if the include file d3d9.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1114057572.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:32 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec1114057572.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1114057572.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1114057572.dir\Debug\cmTryCom.EEB0F551.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1114057572.dir\Debug\cmTryCom.EEB0F551.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1114057572.dir\Debug\\" /Fd"cmTryCompileExec1114057572.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec1114057572.dir\Debug\\" /Fd"cmTryCompileExec1114057572.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1114057572.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1114057572.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1114057572.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1114057572.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec1114057572.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1114057572.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1114057572.dir\Debug\cmTryCom.EEB0F551.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1114057572.dir\Debug\cmTryCom.EEB0F551.tlog\cmTryCompileExec1114057572.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec1114057572.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.84
+
+
+Determining if the include file d3d11_1.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3029875966.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:34 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3029875966.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3029875966.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3029875966.dir\Debug\cmTryCom.BAF8D5AB.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3029875966.dir\Debug\cmTryCom.BAF8D5AB.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3029875966.dir\Debug\\" /Fd"cmTryCompileExec3029875966.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3029875966.dir\Debug\\" /Fd"cmTryCompileExec3029875966.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3029875966.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3029875966.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3029875966.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3029875966.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3029875966.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3029875966.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3029875966.dir\Debug\cmTryCom.BAF8D5AB.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3029875966.dir\Debug\cmTryCom.BAF8D5AB.tlog\cmTryCompileExec3029875966.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3029875966.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.72
+
+
+Determining if the include file ddraw.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3507671276.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:36 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3507671276.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3507671276.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3507671276.dir\Debug\cmTryCom.2657041E.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3507671276.dir\Debug\cmTryCom.2657041E.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3507671276.dir\Debug\\" /Fd"cmTryCompileExec3507671276.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3507671276.dir\Debug\\" /Fd"cmTryCompileExec3507671276.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3507671276.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3507671276.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3507671276.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3507671276.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3507671276.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3507671276.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3507671276.dir\Debug\cmTryCom.2657041E.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3507671276.dir\Debug\cmTryCom.2657041E.tlog\cmTryCompileExec3507671276.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3507671276.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.43
+
+
+Determining if the include file dsound.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec325238877.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:38 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec325238877.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec325238877.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec325238877.dir\Debug\cmTryCom.739C09B9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec325238877.dir\Debug\cmTryCom.739C09B9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec325238877.dir\Debug\\" /Fd"cmTryCompileExec325238877.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec325238877.dir\Debug\\" /Fd"cmTryCompileExec325238877.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec325238877.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec325238877.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec325238877.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec325238877.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec325238877.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec325238877.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec325238877.dir\Debug\cmTryCom.739C09B9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec325238877.dir\Debug\cmTryCom.739C09B9.tlog\cmTryCompileExec325238877.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec325238877.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.46
+
+
+Determining if the include file dinput.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3830786044.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:39 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3830786044.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3830786044.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3830786044.dir\Debug\cmTryCom.285EA40F.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3830786044.dir\Debug\cmTryCom.285EA40F.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3830786044.dir\Debug\\" /Fd"cmTryCompileExec3830786044.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3830786044.dir\Debug\\" /Fd"cmTryCompileExec3830786044.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3830786044.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3830786044.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3830786044.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3830786044.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec3830786044.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3830786044.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3830786044.dir\Debug\cmTryCom.285EA40F.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3830786044.dir\Debug\cmTryCom.285EA40F.tlog\cmTryCompileExec3830786044.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec3830786044.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.71
+
+
+Determining if the include file dxgi.h exists passed with the following output:
+Change Dir: C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec4191013952.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/25/2016 3:39:43 PM.
+Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec4191013952.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec4191013952.dir\Debug\".
+  Creating directory "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec4191013952.dir\Debug\cmTryCom.A2B6E94A.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec4191013952.dir\Debug\cmTryCom.A2B6E94A.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4191013952.dir\Debug\\" /Fd"cmTryCompileExec4191013952.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec4191013952.dir\Debug\\" /Fd"cmTryCompileExec4191013952.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4191013952.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4191013952.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/JimClark/Documents/GitHub/ClimLibSDK/Dependencies/Source/SDL/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec4191013952.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec4191013952.dir\Debug\CheckIncludeFile.obj
+  cmTryCompileExec4191013952.vcxproj -> C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec4191013952.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec4191013952.dir\Debug\cmTryCom.A2B6E94A.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec4191013952.dir\Debug\cmTryCom.A2B6E94A.tlog\cmTryCompileExec4191013952.lastbuildstate".
+Done Building Project "C:\Users\JimClark\Documents\GitHub\ClimLibSDK\Dependencies\Source\SDL\build\CMakeFiles\CMakeTmp\cmTryCompileExec4191013952.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.35
+
+
